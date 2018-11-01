@@ -1,2 +1,2 @@
 # JEA-Kitchen
-A mobile application to be used in the browser to query possible recipes from user inputted ingredients.
+A mobile web application to query possible cooking recipes from user inputted ingredients.
