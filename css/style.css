@@ -131,17 +131,6 @@ header.masthead p {
 
 /* KITCHEN SPECIFIC STYLING */
 
-#add-ingredient {
-	position:fixed;
-	right:100px;
-	bottom:100px;
-}
-
-#find-recipes-button {
-	position:fixed;
-	left:100px;
-	bottom:100px;
-}
 #find-recipes-button:hover {
 	background: coral;
 }
