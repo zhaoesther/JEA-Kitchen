@@ -11,7 +11,6 @@ hr {
 }
 
 a {
-  color: #fff;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -49,7 +48,12 @@ h6 {
 }
 
 .btn-link {
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	background-color:#a6d31d;
+	width: 100%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .btn {
@@ -77,10 +81,10 @@ header.masthead p {
 .homepage-item {
 	background-color:#a6d31d;
 	width: 100%;
-	padding-top: 10%;
-	padding-bottom: 10%;
-	padding-left: 10%;
-	padding-right: 10%;
+	height: 262px;
+	padding: 0px;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .homepage-item .homepage-item-content {
@@ -91,7 +95,7 @@ header.masthead p {
 
 .button-text {
 	text-decoration: none;
-	color:#fff;
+	color:#000;
 }
 
 .block {
@@ -102,13 +106,13 @@ header.masthead p {
 
 .block:hover {
 	background:coral;
-	color:#fff;
+	color:#000;
 }
 
 .button {
 	font-size: 15px;
 	background-color:#a6d31d;
-	color:#fff;
+	color:#000;
 	border:none;
 }
 
