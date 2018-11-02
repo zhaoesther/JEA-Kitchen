@@ -4,6 +4,12 @@ html {
 	height: 100%;
 }
 
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: rgb(30, 32, 172);
+}
+
 a {
   color: #fff;
   -webkit-transition: all 0.2s;
@@ -42,12 +48,45 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.btn-link {
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
 .btn {
   font-weight: 700; 
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.masthead h1 {
+	font-size: 8rem;
+	color: rgba(0, 0, 0, 1);
+}
+
+header.masthead p {
+  font-weight: 300;
+}
+
+.homepage-item {
+	background-color:#a6d31d;
+	width: 100%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.homepage-item .homepage-item-content {
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
 }
 
 .button-text {
@@ -70,7 +109,6 @@ h6 {
 	font-size: 15px;
 	background-color:#a6d31d;
 	color:#fff;
-	padding: 6rem 6rem;
 	border:none;
 }
 
