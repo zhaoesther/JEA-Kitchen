@@ -11,7 +11,6 @@ hr {
 }
 
 a {
-  color: #fff;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -53,7 +52,7 @@ h6 {
 }
 
 .btn {
-  font-weight: 700; 
+  font-weight: 700;
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
@@ -131,6 +130,3 @@ section {
 .section-heading {
   margin-top: 0;
 }
-
-
-
