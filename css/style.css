@@ -78,6 +78,18 @@ header.masthead p {
   font-weight: 300;
 }
 
+.navbar {
+	max-height: 60px;
+}
+.navbar .nav-item {
+	color: lightgoldenrodyellow;
+}
+.navbar a.nav-item.active {
+	color: lightcoral;
+}
+
+
+
 .homepage-item {
 	background-color:#a6d31d;
 	width: 100%;
