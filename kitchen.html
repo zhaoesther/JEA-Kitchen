@@ -29,11 +29,22 @@
 			</div>
 		</div>
 	</header>
-
-<p>Your kitchen is currently empty!
-Click on the add button to add ingredients</p>
-<button class="button">Find Recipes</button>
-<button class="fix-me button">+</button>
+	
+	<div class="kitchen-container">
+		<div id="kitchen-space-panel">
+			<p>Your kitchen is currently empty!
+				Click on the add button to add ingredients</p>
+		</div>
+		<button id="find-recipes" class="button">Find Recipes</button>
+		<button id="add-ingredient" class="button">+</button>
+		<div id="panel">
+			<div id="searchbar">
+				<form id="searchform" action"" method="get">
+					<input type="search" autocomplete="off" name="q" id="s" placeholder="Search for ingredients...">
+				</form>
+			</div>
+		</div>
+	</div>
 
 <!-- Navbar -->
 <nav class="navbar fixed-bottom bg-dark">
