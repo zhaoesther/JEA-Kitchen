@@ -99,6 +99,10 @@ header.masthead p {
 	vertical-align: middle;
 }
 
+.homepage-item:hover {
+	background:coral;
+}
+
 .homepage-item .homepage-item-content {
 	font-size: 60px;
 	color: #fff;
@@ -107,17 +111,6 @@ header.masthead p {
 
 .button-text {
 	text-decoration: none;
-	color:#000;
-}
-
-.block {
-	float:left;
-	border:1px solid #ccc;
-	box-sizing:border-box;
-}
-
-.block:hover {
-	background:coral;
 	color:#000;
 }
 
