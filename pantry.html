@@ -22,24 +22,31 @@
 			<div class="row" style="padding-top:50px">
 			<div class="col-lg-10 text-center mx-auto">
 				<h1 class="text-uppercase text-center">
-					<strong href="./index.html">Pantry</strong>
+					<strong>Pantry</strong>
 					<hr style="max-width: 80%">
 				</h1>
 			</div>
 			</div>
 		</div>
 	</header>
-
-	<div class="kitchen-container">
-		<div id="kitchen-space-panel">
-			<p>Your Pantry is currently empty!
-				Click on the add button to add ingredients</p>
+	
+	<div class="container kitchen-container">
+		<div class="row">
+			<div id="kitchen-space-panel">
+				<p class="text-center">Your pantry is currently empty!
+					Click on the add button to add ingredients</p>
+			</div>
 		</div>
-		<button id="find-recipes" class="button">Find Recipes</button>
-		<button id="add-ingredient" class="button">+</button>
+		<div class="row">
+			<button id="find-recipes" class="button" type="button">
+				<a href="./recipes.html">Find Recipes</a>
+			</button>
+			<button id="add-ingredient" class="button">+</button>
+		</div>
+		
 		<div id="panel">
 			<div id="searchbar">
-				<form id="searchform" action"" method="get">
+				<form id="searchform" action="" method="get">
 					<input type="search" autocomplete="off" name="q" id="s" placeholder="Search for ingredients...">
 				</form>
 			</div>
