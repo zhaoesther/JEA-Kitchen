@@ -30,13 +30,24 @@
 		</div>
 	</header>
 	
-	<div class="kitchen-container">
-		<div id="kitchen-space-panel">
-			<p>Your kitchen is currently empty!
-				Click on the add button to add ingredients</p>
+	<div class="container kitchen-container">
+		<div class="row">
+			<div id="kitchen-space-panel">
+				<p class="text-center">Your kitchen is currently empty!
+					Click on the add button to add ingredients</p>
+			</div>
 		</div>
-		<button id="find-recipes" class="button">Find Recipes</button>
-		<button id="add-ingredient" class="button">+</button>
+		<div class="row">
+			<div class="col-10">
+				<button id="find-recipes" class="button" type="button">
+					<a href="./recipes.html">Find Recipes</a>
+				</button>
+			</div>
+			<div class="col-2">
+				<button id="add-ingredient" class="button">+</button>
+			</div>
+		</div>
+		
 		<div id="panel">
 			<div id="searchbar">
 				<form id="searchform" action"" method="get">

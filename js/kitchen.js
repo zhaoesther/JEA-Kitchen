@@ -4,7 +4,7 @@ $(document).ready( function() {
     	$("#panel").show(500);
     });
 
-    // Navbar Active Item selection
+    // Navbar Active Selection
     $('navbar a.nav-item').click(function()
     {
       $('navbar a.nav-item').find(".active").removeClass(" active");
