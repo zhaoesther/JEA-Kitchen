@@ -143,5 +143,18 @@ header.masthead p {
 	bottom:100px;
 }
 
+#kitchen-space-panel {
+	width:450px;
+	height:600px;
+	background: #FFF6E4;
+}
+
+.kitchen-container {
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+
 
 
