@@ -142,6 +142,10 @@ header.masthead p {
 	left:100px;
 	bottom:100px;
 }
+#find-recipes-button:hover {
+	background: coral;
+}
+
 
 #kitchen-space-panel {
 	width:450px;
