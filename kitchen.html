@@ -39,17 +39,47 @@
 		</div>
 		<div class="row">
 			<button id="find-recipes" class="button" type="button">
-				<a href="./recipes.html">Find Recipes</a>
+				<a class="text-white" href="./recipes.html">Find Recipes</a>
 			</button>
-			<button id="add-ingredient" class="button">+</button>
+			<button id="add-ingredient" class="button text-white">+</button>
 		</div>
 		
 		<div id="panel">
 			<div id="searchbar">
-				<form id="searchform" action="" method="get">
+				<form class="searchform" action="" method="get">
 					<input type="search" autocomplete="off" name="q" id="s" placeholder="Search for ingredients...">
 				</form>
 			</div>
+		</div>
+
+		<!-- Trigger/Open The Modal -->
+		<button id="myBtn">Add Ingredients!</button>
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+		<!-- Modal content -->
+		<div class="modal-content">
+			<div class="modal-header text-center">
+				<span class="close">&times;</span>
+				<h2 style="width:100%;">ADD INGREDIENTS</h2>
+			</div>
+			<div class="modal-body">
+				<h2>Please enter the ingredient you wish to add. Ingredients will automatically pop up as you type.</h4>
+				<div id="panel">
+					<div id="searchbar">
+						<form class="searchform" action="" method="get">
+							<input type="search" autocomplete="off" name="q" id="s" placeholder="Search for ingredients...">
+							<button id="submit" type="submit"><i class="fa fa-2x fa-search"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<p>&nbsp;</p>
+			</div>
+		</div>
+
 		</div>
 	</div>
 
