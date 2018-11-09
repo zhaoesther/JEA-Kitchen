@@ -68,11 +68,34 @@
 				<h2>Please enter the ingredient you wish to add. Ingredients will automatically pop up as you type.</h4>
 				<div id="panel">
 					<div id="searchbar">
-						<form class="searchform" action="" method="get">
-							<input type="search" autocomplete="off" name="q" id="s" placeholder="Search for ingredients...">
-							<button id="submit" type="submit"><i class="fa fa-2x fa-search"></i></button>
+						<form class="searchform" action="" method="get" >
+							<input id="ingredientsearch" type="search" autocomplete="off" name="q" id="s" placeholder="Search for ingredients..." onkeyup="filteringredients()" required>
+							<input id="ingredientamt" type="search" autocomplete="off" name="q" id="s" placeholder="Estimated amount of ingredient..." required>
+							<button id="submit" onclick="findingredient()"><i class="fa fa-2x fa-search">Search</i></button>
 						</form>
 					</div>
+				</div>
+				<hr style="max-width:100%;">
+				<!-- Ingredient results appear here -->
+
+				<input type="text" id="ingredientinput" onkeyup="filteringredients()" placeholder="Search for ingredients.." title="Type in an ingredient">
+
+				<ul id="ingredientlist">
+					<li><a href="#">Broccoli</a></li>
+
+					<li><a href="#">Egg</a></li>
+					
+					<li><a href="#">Spinach</a></li>
+
+					<li><a href="#">Rice</a></li>
+					
+				</ul>
+				
+				<div class="container" id="ingredientresults">
+					<button id="broccoli" class="ingredientbutton btn-block" style='display:none'>Broccoli</button>
+					<button id="egg" class="ingredientbutton btn-block" style='display:none'>Egg</button>
+					<button id="spinach" class="ingredientbutton btn-block" style='display:none'>Spinach</button>
+					<p id="noingredientsfound" class="text-center" style="font-size:28px; display:none">No Matching Ingredients Found!</p>
 				</div>
 			</div>
 			<div class="modal-footer">
