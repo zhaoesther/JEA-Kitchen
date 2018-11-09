@@ -16,53 +16,41 @@
 <script src="./js/main.js"></script>
 </head>
 <body>
-	<header class="recipe_heading">
+
+	<!-- Navbar -->
+	<nav class="navbar sticky-top bg-dark">
+		<a class="nav-item active" href="./index.html"><i class="fa fa-2x fa-home sr-icons"></i>Home</a>
+		<a class="nav-item" href="./kitchen.html"><i class="fa fa-2x fa-cutlery sr-icons"></i>My Kitchen</a>
+		<a class="nav-item" href="./pantry.html"><i class="fa fa-2x fa-shopping-basket sr-icons"></i>My Pantry</a>
+		<a class="nav-item" href="./recipes.html"><i class="fa fa-2x fa-files-o sr-icons"></i>Recipes Lookup</a>
+		<a class="nav-item" href="./favorites.html"><i class="fa fa-2x fa-bookmark sr-icons"></i>Favorites</a>
+	</nav>
+
+	<header class="masthead">
 		<div class="container mx-auto">
 			<div class="row" style="padding-top:50px">
-			<div class="col-lg-10 mx-auto">
-				<h1 class="text-uppercase">
-					<strong>Search Results</strong>
+			<div class="col-lg-10 text-center mx-auto">
+				<h1 class="text-uppercase text-center">
+					<strong>Recipes</strong>
+					<hr style="max-width: 80%">
 				</h1>
 			</div>
 			</div>
-			<hr style="max-width:80%">
 		</div>
 	</header>
-	<section id="Homepage-nav-btns">
+
+	<section id="Recipes">
 		<div class="container">
-			<div class="row">
-				<div class="col-6">
-					<div>
-						<a href="./chicken_kale_soup_recipe.html">Chicken and Kale soup</a>
-					</div>
-				</div>
-				<div class="col-6">
-					<div>
-						<img src="images/Chicken-Kale-Detox-Soup.jpg" alt="Soup image">
-					</div>
-				</div>
+			<div class="row" id="ingredients">
+				<!-- ingredients -->
 			</div>
-			<div class="row">
-				<span>&nbsp</span>
-			</div>
-			<div class="row">
-				<div class="col-6">
-					<a href="./cranberry_kale_salad_recipe.html">Cranberry Kale salad</a>
-				</div>
-				<div class="col-6">
-					<img src="images/Cranberry-Kale-Salad.jpg" alt="Salad image">
-				</div>
+			<div class="row" id="recipe_list">
+				
 			</div>
 		</div>
 	</section>
+
 	
-	<!-- Navbar -->
-	<nav class="navbar fixed-bottom bg-dark">
-		<a class="nav-item active" href="./index.html">Home</a>
-		<a class="nav-item" href="./kitchen.html">My Kitchen</a>
-		<a class="nav-item" href="./pantry.html">My Pantry</a>
-		<a class="nav-item" href="./recipes.html">Recipes Lookup</a>
-		<a class="nav-item" href="./favorites.html">Favorites</a>
-	</nav>
+	
 </body>
 </html>
